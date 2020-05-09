@@ -1,0 +1,24 @@
+{
+	"name": "userservice",
+	"version": "1.0.0",
+	"description": "Registration and Authentication",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js",
+		"start": "node src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "D. Akporhonor",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.9.12",
+		"validator": "^13.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.3"
+	}
+}
